@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-primary: #14243A;
+    --navy-secondary: #203B57;
+    --teal-accent: #1B8A89;
+    --bg-grey: #F5F7FA;
+    --border-grey: #E3E8EF;
+    --text-body: #344054;
+    --text-muted: #667085;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #344054;
+    background-color: #F5F7FA;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
